@@ -70,7 +70,7 @@ const Hero = () => {
               <img 
                 src={heroImage} 
                 alt="SIVAR IA - Asistente virtual inteligente"
-                className="relative z-10 w-full h-auto rounded-2xl shadow-elegant animate-float"
+                className="relative z-10 w-full h-auto rounded-2xl shadow-elegant"
               />
             </div>
           </div>
