@@ -126,7 +126,16 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center gap-6 text-sm text-gray-400">
-            <span>Hecho con ❤️ en El Salvador</span>
+            <div className="flex items-center gap-2">
+              <span>Hecho con ❤️ en</span>
+              {/* Bandera de El Salvador */}
+              <div className="flex flex-col w-6 h-4 border border-gray-600 rounded-sm overflow-hidden shadow-sm">
+                <div className="h-1/3 bg-blue-600"></div>
+                <div className="h-1/3 bg-white"></div>
+                <div className="h-1/3 bg-blue-600"></div>
+              </div>
+              <span>El Salvador</span>
+            </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
               <span className="text-primary">Innovación local, impacto global</span>
