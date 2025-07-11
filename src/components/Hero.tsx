@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-// Removed hero image import
+import heroImage from "@/assets/hero-ai-bot.jpg";
 
 const Hero = () => {
   return (
@@ -9,6 +9,13 @@ const Hero = () => {
       <div className="absolute inset-0 gradient-dark opacity-95"></div>
       <div className="absolute inset-0 bg-gradient-to-br from-transparent via-primary/5 to-purple-dark/20"></div>
       
+      {/* Animated Particles */}
+      <div className="absolute inset-0">
+        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary rounded-full animate-pulse-glow"></div>
+        <div className="absolute top-3/4 right-1/4 w-1 h-1 bg-primary-glow rounded-full animate-float"></div>
+        <div className="absolute top-1/2 left-3/4 w-3 h-3 bg-primary/70 rounded-full animate-pulse-glow" style={{animationDelay: '1s'}}></div>
+        <div className="absolute bottom-1/4 left-1/2 w-1 h-1 bg-primary rounded-full animate-float" style={{animationDelay: '2s'}}></div>
+      </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -57,11 +64,12 @@ const Hero = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="relative">
+          <div className="relative fade-in-up" style={{animationDelay: '0.3s'}}>
             <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary to-purple-dark opacity-20 rounded-2xl blur-3xl"></div>
               <img 
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                alt="SIVAR IA - Tecnología de inteligencia artificial"
+                src={heroImage} 
+                alt="SIVAR IA - Asistente virtual inteligente"
                 className="relative z-10 w-full h-auto rounded-2xl shadow-elegant"
               />
             </div>
