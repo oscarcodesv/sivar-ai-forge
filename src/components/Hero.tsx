@@ -3,8 +3,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 // Removed hero image import
 
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 gradient-dark opacity-95"></div>
       <div className="absolute inset-0 bg-gradient-to-br from-transparent via-primary/5 to-purple-dark/20"></div>
@@ -37,20 +36,12 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button 
-                variant="hero" 
-                size="lg" 
-                className="text-lg px-8 py-6 rounded-xl hover-lift group"
-              >
+              <Button variant="hero" size="lg" className="text-lg px-8 py-6 rounded-xl hover-lift group">
                 Empieza hoy
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               
-              <Button 
-                variant="glass" 
-                size="lg" 
-                className="text-lg px-8 py-6 rounded-xl hover-lift text-white"
-              >
+              <Button variant="glass" size="lg" className="text-lg px-8 py-6 rounded-xl hover-lift text-white">
                 Ver demo
               </Button>
             </div>
@@ -59,11 +50,7 @@ const Hero = () => {
           {/* Hero Image */}
           <div className="relative">
             <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                alt="SIVAR IA - Tecnología de inteligencia artificial"
-                className="relative z-10 w-full h-auto rounded-2xl shadow-elegant"
-              />
+              <img alt="SIVAR IA - Tecnología de inteligencia artificial" src="/lovable-uploads/36e20004-2775-4dda-9f2b-3620194d20fa.jpg" className="relative z-10 w-full h-auto rounded-2xl shadow-elegant object-scale-down" />
             </div>
           </div>
         </div>
@@ -78,8 +65,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
