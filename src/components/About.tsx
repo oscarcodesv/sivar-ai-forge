@@ -32,7 +32,7 @@ const About = () => {
           </h2>
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-xl text-muted-foreground leading-relaxed">
-              SIVAR IA es una empresa salvadoreña que diseña soluciones a la medida de tu negocio.
+              IA ElSalvador.com es una empresa salvadoreña que diseña soluciones a la medida de tu negocio.
             </p>
             <p className="text-2xl font-semibold text-foreground">
               Olvídate de sistemas genéricos. Nuestra tecnología se adapta a ti, no al revés.

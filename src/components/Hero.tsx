@@ -50,7 +50,7 @@ const Hero = () => {
           {/* Hero Image */}
           <div className="relative">
             <div className="relative">
-              <img alt="SIVAR IA - Tecnología de inteligencia artificial" src="/lovable-uploads/36e20004-2775-4dda-9f2b-3620194d20fa.jpg" className="relative z-10 w-3/4 h-auto rounded-2xl shadow-elegant object-scale-down mx-auto" />
+              <img alt="IA ElSalvador.com - Tecnología de inteligencia artificial" src="/lovable-uploads/36e20004-2775-4dda-9f2b-3620194d20fa.jpg" className="relative z-10 w-3/4 h-auto rounded-2xl shadow-elegant object-scale-down mx-auto" />
             </div>
           </div>
         </div>

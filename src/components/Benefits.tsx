@@ -55,7 +55,7 @@ const Benefits = () => {
           <h2 className="text-3xl md:text-5xl font-bold text-white">
             ¿Por qué elegir{" "}
             <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
-              SIVAR IA
+              IA ElSalvador.com
             </span>
             ?
           </h2>

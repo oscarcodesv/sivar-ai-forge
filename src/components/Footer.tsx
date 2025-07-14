@@ -47,10 +47,10 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <div>
               <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent mb-4">
-                SIVAR IA
+                IA ElSalvador.com
               </h3>
               <p className="text-gray-300 leading-relaxed max-w-md">
-                SIVAR IA es una empresa salvadoreña dedicada a democratizar la inteligencia artificial 
+                IA ElSalvador.com es una empresa salvadoreña dedicada a democratizar la inteligencia artificial 
                 para los negocios de la región. Transformamos procesos complejos en soluciones simples y efectivas.
               </p>
             </div>
@@ -122,7 +122,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-gray-400">
-            © {currentYear} SIVAR IA. Todos los derechos reservados.
+            © {currentYear} IA ElSalvador.com. Todos los derechos reservados.
           </div>
           
           <div className="flex items-center gap-6 text-sm text-gray-400">

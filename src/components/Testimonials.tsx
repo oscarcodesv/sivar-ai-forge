@@ -7,7 +7,7 @@ const Testimonials = () => {
       name: "Ana Campos",
       position: "Gerente de Operaciones",
       company: "TechCorp SV",
-      content: "Con SIVAR IA automatizamos el 80% de nuestra atención al cliente. Ahora respondemos más rápido, con menos esfuerzo y nuestros clientes están más satisfechos que nunca.",
+      content: "Con IA ElSalvador.com automatizamos el 80% de nuestra atención al cliente. Ahora respondemos más rápido, con menos esfuerzo y nuestros clientes están más satisfechos que nunca.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face"
     },
@@ -23,7 +23,7 @@ const Testimonials = () => {
       name: "María González",
       position: "CEO",
       company: "Soluciones Empresariales",
-      content: "SIVAR IA nos ayudó a escalar nuestro negocio sin contratar más personal. La IA se encarga de las tareas repetitivas mientras nosotros nos enfocamos en crecer.",
+      content: "IA ElSalvador.com nos ayudó a escalar nuestro negocio sin contratar más personal. La IA se encarga de las tareas repetitivas mientras nosotros nos enfocamos en crecer.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
     }
