@@ -17,6 +17,11 @@ const About = () => {
       icon: Shield,
       title: "Soluciones con IA",
       description: "Automatización inteligente para optimizar tus procesos"
+    },
+    {
+      icon: Zap,
+      title: "Virtual Staff",
+      description: "Personal virtual especializado para tu empresa"
     }
   ];
 
