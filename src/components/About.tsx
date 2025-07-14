@@ -5,23 +5,18 @@ const About = () => {
   const features = [
     {
       icon: Code,
-      title: "Sin código",
-      description: "Implementación sin complicaciones técnicas"
-    },
-    {
-      icon: Zap,
-      title: "Fácil de integrar", 
-      description: "Se adapta a tus herramientas actuales"
+      title: "Creación de páginas web",
+      description: "Sitios web modernos y optimizados para tu negocio"
     },
     {
       icon: HeartHandshake,
-      title: "Soporte humano y local",
-      description: "El mejor equipo a cargo de tus ideas"
+      title: "Contratación de personal para empresas en el extranjero",
+      description: "Conectamos talento salvadoreño con oportunidades globales"
     },
     {
       icon: Shield,
-      title: "Tecnología confiable",
-      description: "Soluciones robustas y escalables"
+      title: "Soluciones con IA",
+      description: "Automatización inteligente para optimizar tus procesos"
     }
   ];
 
@@ -45,7 +40,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Card 
               key={index} 
