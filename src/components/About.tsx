@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Zap, HeartHandshake, Shield } from "lucide-react";
+import { Code, Zap, HeartHandshake, Shield, Plug, Star } from "lucide-react";
 
 const About = () => {
   const features = [
@@ -22,6 +22,16 @@ const About = () => {
       icon: Zap,
       title: "Virtual Staff",
       description: "Personal virtual especializado para tu empresa"
+    },
+    {
+      icon: Plug,
+      title: "Fácil de integrar",
+      description: "Soluciones que se adaptan a tu infraestructura existente"
+    },
+    {
+      icon: Star,
+      title: "Tecnología confiable",
+      description: "Sistemas robustos y seguros respaldados por nuestra experiencia"
     }
   ];
 
