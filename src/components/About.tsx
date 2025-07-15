@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Zap, HeartHandshake, Shield, Gauge, Workflow, BarChart, Brain, Bot, Cog, ShoppingCart } from "lucide-react";
+import { Code, Zap, Shield, Gauge, Workflow, BarChart, Brain, Bot, Cog, ShoppingCart } from "lucide-react";
 
 const About = () => {
   const features = [
@@ -7,11 +7,6 @@ const About = () => {
       icon: Code,
       title: "Creación de páginas web",
       description: "Sitios web modernos y optimizados para tu negocio"
-    },
-    {
-      icon: HeartHandshake,
-      title: "Contratación de personal para empresas en el extranjero",
-      description: "Conectamos talento salvadoreño con oportunidades globales"
     },
     {
       icon: Shield,
