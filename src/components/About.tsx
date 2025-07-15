@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Zap, HeartHandshake, Shield } from "lucide-react";
+import { Code, Zap, HeartHandshake, Shield, Gauge, Workflow, BarChart, Brain, Bot, Cog, ShoppingCart } from "lucide-react";
 
 const About = () => {
   const features = [
@@ -22,6 +22,41 @@ const About = () => {
       icon: Zap,
       title: "Virtual Staff",
       description: "Personal virtual especializado para tu empresa"
+    },
+    {
+      icon: Gauge,
+      title: "Optimización del rendimiento",
+      description: "Mejoramos la velocidad y eficiencia de tu sistema"
+    },
+    {
+      icon: Workflow,
+      title: "Integración de sistemas",
+      description: "Conectamos tus herramientas para un flujo de trabajo unificado"
+    },
+    {
+      icon: BarChart,
+      title: "Análisis de datos",
+      description: "Transformamos tus datos en insights valiosos para la toma de decisiones"
+    },
+    {
+      icon: Brain,
+      title: "Consultoría en inteligencia artificial",
+      description: "Te guiamos en la implementación de soluciones de IA para tu negocio"
+    },
+    {
+      icon: Bot,
+      title: "Inteligencia artificial",
+      description: "Soluciones de IA personalizadas para automatizar y optimizar procesos"
+    },
+    {
+      icon: Cog,
+      title: "Automatización",
+      description: "Automatizamos tareas repetitivas para aumentar la productividad"
+    },
+    {
+      icon: ShoppingCart,
+      title: "E-Comercio",
+      description: "Plataformas de comercio electrónico completas y optimizadas"
     }
   ];
 
@@ -45,7 +80,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <Card 
               key={index} 
